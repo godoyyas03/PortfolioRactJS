@@ -1,0 +1,772 @@
+@import url(./index.css);
+
+/* 1 rem = 16px */
+
+/* Tipos de formatação com CSS: ID - CLASS (CLASSNAME). */
+
+/* Formatação por TAG HTML! */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Montserrat-Regular;
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    padding: 0.6rem 0rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header .container {
+    height: 60%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+header nav ul li a:hover {
+    color: #ff3700;
+}
+
+/* Formatação por CLASS (CLASSNAME) HTML! */
+
+/* Formatação do botão para retornar ao inicio da página */
+
+.bntNav {
+    margin: 0rem 0.6rem 0.6rem 0rem;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bntNavTopo {
+    width: 80px;
+    transition: .4s;
+}
+
+.bntNavTopo:hover {
+    transform: scale(1.1);
+}
+
+.bannerPage {
+    padding: 2rem 1.4rem 4rem 1.4rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nome {
+    font-size: 4.2rem;
+}
+
+.nome:hover {
+    color: #ff3700;
+    cursor: default;
+}
+
+.funcao {
+    font-size: 2rem;
+}
+
+.funcao:hover {
+    color: #ff3700;
+    cursor: default;
+}
+
+.descricao {
+    font-size: 1rem;
+    font-family: Montserrat-Light;
+}
+
+.descricao:hover {
+    color: #ff3700;
+    cursor: default;
+}
+
+.bntPortfolio {
+    display: flex;
+    gap: 1rem;
+}
+
+.GitHub {
+    max-width: 90px;
+}
+
+.Linkedin {
+    max-width: 90px;
+}
+
+.about {
+    padding: 3.2rem 1.2rem;
+    background-color: #ff3700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.projects {
+    padding: 3.2rem 1.2rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 3.2rem;
+    background-color: #ff3700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.endPage {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3.2rem 1.2rem;
+}
+
+.titleAbout {
+    font-size: 3rem;
+    margin: 0px;
+
+}
+
+.titleProjects {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.titleContact {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.titleRS {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.textProjects {
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+.boxHabil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.habil {
+    padding: 8px;
+    font-size: 12px;
+    border: 0.1px solid #000000;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: default;
+}
+
+.habil:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.4s;
+    border: none;
+}
+
+.cardProjects {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.imgCard {
+    width: 100%;
+    max-width: 310px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.imgGitHub {
+    width: 32px;
+}
+
+.repGitHub {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000;
+    border: 2px solid #ff3700;
+    border-radius: 4px;
+    padding: 0.2rem 0.1rem;
+    margin: 1.2rem 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titleCard {
+    margin: 0px;
+    font-size: 1.4rem;
+}
+
+.maps {
+    background-color: #000000;
+}
+
+.listCt {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.iconCtc {
+    width: 45px;
+    height: 45px;
+    margin-right: 1.6rem;
+    transition: .4s;
+}
+
+.iconCtc:hover {
+    transform: scale(1.1);
+}
+
+.boxWtpp {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0.6rem;
+}
+
+.linkWtpp {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.linkWtpp:hover {
+    font-weight: bolder;
+    color: #006400;
+    background-color: #ffffff;
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.infoWtpp {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.formContact {
+    text-align: left;
+}
+
+.campForm {
+    width: 100%;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    font-family: Montserrat-Regular;
+    font-size: 0.8rem;
+}
+
+.campFormMsg {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    font-family: Montserrat-Regular;
+    font-size: 0.8rem;
+}
+
+.campForm:focus,
+.campFormMsg:focus {
+    border: 2px solid #000000;
+}
+
+.alignBnt {
+    display: flex;
+    gap: 1rem;
+}
+
+.bntForm {
+    width: 80px;
+    height: 35px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bntFormReset {
+    width: 80px;
+    height: 35px;
+    background-color: #fbff00;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bntForm:hover {
+    background-color: #056400;
+    border: 2px solid #000000;
+}
+
+.bntFormReset:hover {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.logotipoCopy {
+    width: 55px;
+}
+
+.rsFooter {
+    text-align: center;
+}
+
+
+
+.linkRS {
+    text-decoration: none;
+    transition: .4s;
+}
+
+.linkRS:hover {
+    transform: scale(1.4);
+}
+
+
+/* Função Nativa de Responsividade - Desktop/Notebook */
+
+@media screen and (min-width: 998px) {
+    .imgLogotipo {
+        max-width: 230px;
+        margin: 0.8rem 0rem;
+    }
+
+    .wrap {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        display: grid;
+    }
+
+    .imgBanner {
+        max-width: 300px;
+        border-radius: 50%;
+        transition: .4s;
+    }
+
+    .imgBanner:hover {
+        transform: scale(1.1);
+    }
+
+    .textBanner {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleBanner {
+        color: #ffffff;
+        padding: 0rem 1rem;
+        margin-bottom: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .colum1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+
+    .linkGitHub {
+        width: 100%;
+        max-width: 190px;
+        text-decoration: none;
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        color: #000000;
+        font-family: Montserrat-Medium;
+        padding: 1rem;
+        border: 6px solid #ff3700;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linkLinkedin {
+        width: 100%;
+        max-width: 190px;
+        text-decoration: none;
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        color: #000000;
+        font-family: Montserrat-Medium;
+        padding: 1rem 2.4rem 1rem 1rem;
+        border: 6px solid #ff3700;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linkGitHub:hover,
+    .linkLinkedin:hover {
+        background-color: #ff3700;
+        border: 6px solid #ffffff;
+        transition: .3s;
+    }
+
+    .gridProjects {
+        padding: 1.2rem 0.6rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .infoContact{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+    .boxContact {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .infoContact {
+        text-align: left;
+    }
+
+    .boxImgBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoCopy {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 1.4rem;
+    }
+
+    .iconRS {
+        margin-top: 1.8rem;
+        border-bottom: 1px solid #ffffff;
+        display: flex;
+        justify-content: center;
+        gap: 3.2rem;
+    }
+
+}
+
+/* Função Nativa de Responsividade - Celular/Tablet */
+@media screen and (max-width: 998px) {
+    .imgLogotipo {
+        max-width: 160px;
+        margin: 0.8rem 0rem;
+    }
+
+    .one, .two, .three{
+        width: 100%;
+        height: 6px;
+        background-color: #ff3700;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 32px;
+        margin-right: 20px;
+    }
+
+    .menu-section nav{
+        display: none;
+    }
+
+    .menu-section.on{
+        width: 100vw;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: #ffffff;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate3d(8px, 7px);
+        background-color: #ff0000;
+    }
+
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate3d(8px, -11px);
+        background-color: #ff0000;
+    }
+
+    .menu-section.on nav ul{
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: .5s;
+        font-size: 0.8rem;
+        display: block;
+        color: #000000;
+        padding: 0.6rem;
+    }
+
+    .menu-section.on nav ul .hide{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .colum1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+        font-size: 1.6rem;
+    }
+
+    .bntPortfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleBanner {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textBanner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boxImgBanner {
+        padding: 2rem;
+    }
+
+    .imgBanner {
+        max-width: 280px;
+        border-radius: 50%;
+    }
+
+    .linkGitHub {
+        width: 100%;
+        max-width: 210px;
+        text-decoration: none;
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        color: #000000;
+        font-family: Montserrat-Medium;
+        padding: 1rem;
+        border: 6px solid #ff3700;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linkLinkedin {
+        width: 100%;
+        max-width: 190px;
+        text-decoration: none;
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        color: #000000;
+        font-family: Montserrat-Medium;
+        padding: 1rem 2.4rem 1rem 1rem;
+        border: 6px solid #ff3700;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linkGitHub:hover,
+    .linkLinkedin:hover {
+        background-color: #ff3700;
+        border: 6px solid #ffffff;
+        transition: .3s;
+    }
+
+    .imgBanner {
+        max-width: 300px;
+        border-radius: 50%;
+        transition: .4s;
+    }
+
+    .imgBanner:hover {
+        transform: scale(1.1);
+    }
+
+    .gridProjects {
+        padding: 1.2rem 0.6rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoContact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formContact {
+        padding: 2.2rem;
+    }
+
+    .infoCopy {
+        text-align: center;
+    }
+
+    .iconRS {
+        margin-top: 1.8rem;
+        border-bottom: 1px solid #ffffff;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Função Nativa de Responsividade - Celular */
+@media screen and (max-width: 768px) {
+    .gridProjects {
+        padding: 1.2rem 0.6rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgCard {
+        width: 100%;
+        max-width: 352px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .infoContact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .gridProjects {
+        padding: 1.2rem 0.6rem;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgCard {
+        width: 100%;
+        max-width: 520px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+
+/* 
+.map-page{
+} */
+
+/* ulcontact
+padding left 6px */
+
+
+/* fim da formatação do botão inicio */
